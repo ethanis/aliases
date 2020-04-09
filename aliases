@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# opens this directory in vs code
+code ~/aliases

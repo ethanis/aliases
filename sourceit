@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source ~/.zshrc;
+echo "Sourced all the things!";

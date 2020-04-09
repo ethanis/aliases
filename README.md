@@ -1,6 +1,6 @@
 # Getting started
 
-I have these utilities in `~/aliases`. If you want to have a similar setup as mine, you can get started with:
+I have these utilities in `~/aliases`. If you want to have a copy my setup, you can get started with:
 
 ```bash
 # clone the repo
@@ -12,12 +12,25 @@ $ source ~/.zshrc # or restart your shell
 
 ## Table of contents
 
+- [aliases](#aliases)
 - [gcmco](#gcmco)
 - [git-stats](#git-stats)
+- [glolz](#glolz)
+- [sourceit](#sourceit)
+
+### aliases
+
+Opens the `~/aliases` directory in VS Code (yeah - it's meta).
+
+**Usage**
+
+```bash
+$ aliases
+```
 
 ### gcmco
 
-Easily denote co-authors in a commit message to give commit attribution in GitHub
+Easily denote co-authors in a commit message to give commit attribution in GitHub.
 
 **Usage**
 
@@ -35,4 +48,28 @@ Get a quick view into the contributions to a git repo
 ```bash
 $ git-stats
 Ethan Dennis	41 additions, 4 deleted, 37 total
+```
+
+### glolz
+
+Pretty print a git log.
+
+**Usage**
+
+```bash
+$ glolz
+* c554785 - (HEAD -> master, origin/master) Add git-stats command (19 minutes ago) <Ethan Dennis>
+* ec4823f - Add setup instructions (6 hours ago) <Ethan Dennis>
+...
+```
+
+### sourceit
+
+Source all the things files that may be setting shell state.
+
+**Usage**
+
+```bash
+$ sourceit
+Sourced all the things!
 ```
