@@ -12,15 +12,27 @@ $ source ~/.zshrc # or restart your shell
 
 ## Table of contents
 
-[gcmco](#gcmco)
+- [gcmco](#gcmco)
+- [git-stats](#git-stats)
 
 ### gcmco
 
 Easily denote co-authors in a commit message to give commit attribution in GitHub
 
-#### Usage
+**Usage**
 
 ```bash
 $ gcmco "awesome commit message" "@co-author-one" "@co-author-two" (add as many co-authors as you need!)
-=> git commit -m "awesome commit message" -m "co-authored-by: @co-author-one" -m "co-authored-by: @co-author-two"
+git commit -m "awesome commit message" -m "co-authored-by: @co-author-one" -m "co-authored-by: @co-author-two"
+```
+
+### git-stats
+
+Get a quick view into the contributions to a git repo
+
+**Usage**
+
+```bash
+$ git-stats
+Ethan Dennis	41 additions, 4 deleted, 37 total
 ```
